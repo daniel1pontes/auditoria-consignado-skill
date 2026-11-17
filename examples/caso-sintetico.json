@@ -1,0 +1,10 @@
+{
+  "caso": "Exemplo sintético 001",
+  "cliente": "Pessoa fictícia",
+  "auditor": "Profissional responsável",
+  "data": "2026-11-17",
+  "escopo": "Demonstração com dados inteiramente sintéticos.",
+  "documentos": ["contrato-ficticio.pdf, página 2", "extrato-ficticio.csv, linha 3"],
+  "contratos": [{"id": "C01", "valor_contratado": "10000.00", "valor_liberado": "9500.00", "parcela": "300.00", "prazo": 48, "taxa": "1.50% ao mês", "cet": "não informado", "origem": "contrato-ficticio.pdf, página 2, quadro financeiro"}],
+  "movimentos": [{"contrato_id": "C01", "tipo": "desconto", "valor": "320.00", "origem": "extrato-ficticio.csv, linha 3"}, {"tipo": "desconto", "valor": "70.00", "origem": "extrato-ficticio.csv, linha 4"}]
+}
