@@ -1,0 +1,10 @@
+{
+  "name": "auditoria-consignado",
+  "interface": {"displayName": "Auditoria de Consignado"},
+  "plugins": [{
+    "name": "auditoria-consignado",
+    "source": {"source": "local", "path": "./"},
+    "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+    "category": "Productivity"
+  }]
+}

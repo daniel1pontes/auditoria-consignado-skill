@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "auditoria-consignado",
+  "version": "0.1.0",
+  "description": "Apoio à revisão de contratos de crédito consignado com evidências rastreáveis.",
+  "author": {"name": "Daniel Pontes"},
+  "extensions": {"com.openai": {"interface": {
+    "displayName": "Auditoria de Consignado",
+    "shortDescription": "Revisão de consignado",
+    "longDescription": "Skill e ferramentas locais para apoiar a revisão profissional de contratos e extratos de consignado.",
+    "developerName": "Daniel Pontes",
+    "category": "Productivity"
+  }}}
+}
